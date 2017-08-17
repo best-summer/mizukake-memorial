@@ -1,0 +1,88 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax {
+  position: relative;
+}
+
+.parallax-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(ellipse farthest-corner at center center, rgba(0,0,0,0.3) 20%, rgba(0,0,0,0.65) 100%) repeat scroll 0% 0%;
+}
+
+.section.no-pad-bot {
+  /* top: 40% !important; */
+  margin-top: 200px;
+}
+
+.parallax-container {
+  min-height: 500px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+  text-shadow: #444 1px 1px 0px, #444 -1px 1px 0px,
+               #444 1px -1px 0px, #444 -1px -1px 0px;
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.highlight {
+    background: linear-gradient(transparent 50%, #66FFCC 0%);
+    line-height: 1.3em;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
