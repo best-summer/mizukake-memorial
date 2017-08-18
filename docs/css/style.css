@@ -55,6 +55,18 @@ p {
     width: 100%;
   }
 
+.card.twitter {
+  height: auto;
+}
+
+.card-image.twitter {
+  height: auto;
+}
+
+.card-action.twitter {
+  position: relative !important;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
